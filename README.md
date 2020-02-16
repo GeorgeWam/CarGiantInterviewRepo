@@ -1,7 +1,5 @@
 # CarGiantInterviewRepo
 
-Repository for interview data
-
 **Execution Instructions and other details.** 
 1)	A prerequisite for executing this test is that a user must have a login credential. These were created and are: 
 
