@@ -134,7 +134,7 @@ namespace CarGiantProject.StepDefinition
             wishListPage.PageScrollDownFullPage();
         }
 
-        [Then(@"the second car (.*) sshould be displayed")]
+        [Then(@"the number of cars remaining (.*) sshould be displayed")]
         public void ThenTheSecondCarVehicleRefSshouldBeDisplayed(string expectedRef)
         {
             string actualRef = wishListPage.SecondCarRefDetails();
