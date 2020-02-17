@@ -30,7 +30,7 @@ namespace CarGiantProject.Pages
         By myGarageLink = By.XPath("/html/body/section[1]/header/div[1]/div/div[2]/a");
         By removeFromWatchlist = By.CssSelector("#slick-slide00 > div.large-8.medium-8.small-12.columns > p > a > i");
         By thirdCarWatchList = By.CssSelector("#vehicle-results-panel > ul > li:nth-child(3) > article > div.vehicle-tile__column.vehicle-tile__column--first > div > a.vehicle-tile__action.watchlist-btn.is--add.hidden--small");
-        By secondCarRef = By.CssSelector("#slick-slide01 > div.large-8.medium-8.small-12.columns > p > span");
+        By secondCarRef = By.CssSelector("/html/body/section[1]/section[3]/div[2]/div[2]/span[2]/ul/li[2]/button");
 
 
         // Writing methods for the elements
