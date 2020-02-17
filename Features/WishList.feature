@@ -33,7 +33,7 @@ Scenario: Verify that a user can delete an item from a wishlist
 	And a user scrols down fullPage
 	And a user clicks on Remove From Watchlist
 	And a user scrols down fullPage
-	Then the second car Ref: FH13WDU sshould be displayed
+	Then the number of cars remaining 2 sshould be displayed
 	
 	
 
